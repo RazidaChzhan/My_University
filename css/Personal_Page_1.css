@@ -66,19 +66,40 @@ a:hover, a:active, a:visited, a:link {
 
 .personal-data {
     background-color: #FFFFFF;
-    width: 400px;
-    height: 399px;
+    width: 440px;
+    height: 185px;
     margin-left: 260px;
     box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
     border-radius: 5px;
-
     }
 
 li {
     list-style-type: none; 
     border-bottom: 2px solid #D2D2D2;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    
    }
 
+   li a:hover {
+    font-family: Segoe UI;
+    font-size: 18px;
+    line-height: 24px;
+    color: #802882;
+    font-weight: bold;
+    }
+
+   li:hover {
+    border-left: 5px solid #2FA2BC;
+   }
+
+   li a {
+    font-family: Segoe UI;
+    font-size: 18px;
+    line-height: 24px;    
+    color: #7A7A7A;
+   }
+   
    .nav-link {
     font-family: Segoe UI;
     font-size: 24px;
