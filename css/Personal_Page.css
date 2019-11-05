@@ -1,0 +1,132 @@
+body {
+    min-width: 320px; 
+    max-width: 100%;
+    margin: 0px;
+    position: relative;
+   }
+
+a:hover, a:active, a:visited, a:link {
+   text-decoration: none !important;
+   -webkit-box-shadow: none!important;
+    box-shadow: none!important;
+}
+.logo {
+    margin-left: 255px;
+}
+
+.logo-text {
+    font-family: Segoe UI;
+    font-size: 15px;
+    line-height: 20px;            
+    color: #222222; 
+    }
+
+.dropdown-menu {
+    margin-left: 1100px;
+    width: 290px;
+   }
+
+.navbar {
+    background-color: #FFFFFF !important;
+}
+.personal-menu {
+    margin-left: 240px;
+}
+.personal-text {
+    font-family: Segoe UI;
+    font-size: 44px;
+    line-height: 59px;
+    color: #222222;
+    margin-left: 260px;
+    padding-top: 50px;
+    padding-bottom: 40px;
+    font-weight: bold;
+}
+.personal-link {
+    font-family: Segoe UI;
+    font-size: 24px;
+    line-height: 32px;
+    color: #222222;  
+    margin: 10px;  
+}
+.personal-link:hover {
+    font-weight: bold;
+    color: #222222;  
+    border-bottom: 5px solid #2FA2BC;
+    text-decoration: none !important;
+
+}
+
+.main {
+    /* background-color: rgba(128, 40, 130, 0.2); */
+    background-image: url("../images/background-img.svg");
+   }
+
+.personal-data {
+    background-color: #FFFFFF;
+    width: 400px;
+    height: 399px;
+    margin-left: 260px;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+
+    }
+
+li {
+    list-style-type: none; 
+    border-bottom: 2px solid #D2D2D2;
+   }
+
+   .nav-link {
+    font-family: Segoe UI;
+    font-size: 24px;
+    line-height: 32px;
+    display: flex;
+    align-items: center;    
+    color: #222222;
+   }
+
+   .nav-link:hover {
+    color: #222222;
+   }
+   .text {
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+    display: flex;
+    align-items: center;    
+    color: #222222;
+    padding-top: 35px;
+    padding-left: 20px;
+   }
+   .track {
+    font-family: Segoe UI;
+    font-size: 18px; 
+    line-height: 24px; 
+    color: #2FA2BC;    
+   }
+
+   .all-tracks {
+    width: 1150px; 
+    height: 120px; 
+    background-color: #FFFFFF; 
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1); 
+    border-radius: 5px; 
+    margin-bottom: 20px;
+   }
+
+   .policy:hover {
+    font-family: Segoe UI; 
+    font-size: 18px;
+    line-height: 24px;
+    text-decoration-line: underline !important;                  
+    color: #2FA2BC !important;
+   }
+   .personal-link:hover {
+    /* background-color: linear-gradient(90deg, #2797B6 0%, #54C5CF 100%), #2FA2BC; */
+    background-color: #2FA2BC;
+    border-radius: 100px;
+    color: #FFFFFF;
+   }
