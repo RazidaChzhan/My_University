@@ -60,18 +60,46 @@ a:hover, a:active, a:visited, a:link {
 .main {
     background-image: url("../images/background-img.svg");
     background-repeat: no-repeat;
+    background-size: cover;
     width: 1920px;
-    height: 811px;
+    height: 811px;    
    }
 
 .personal-data {
     background-color: #FFFFFF;
-    width: 440px;
-    height: 185px;
+    width: 100%;
+    height: 50%;
     margin-left: 260px;
     box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
     border-radius: 5px;
+    margin-top: 80px;
     }
+
+.personal {
+        font-family: Segoe UI;
+        font-size: 24px;
+        line-height: 32px;
+        color: #222222;  
+        margin: 10px;  
+    }
+
+.personal:hover {
+        font-weight: bold;
+        color: #222222;  
+        border-bottom: 5px solid #2FA2BC;
+        text-decoration: none !important;
+    
+    }
+
+.settings {
+        background-color: #FFFFFF;
+        width: 90%;
+        height: 90%;
+        box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
+        border-radius: 5px;
+        margin-top: 80px;               
+        }
+
 
 li {
     list-style-type: none; 
@@ -124,11 +152,28 @@ li {
     padding-top: 35px;
     padding-left: 20px;
    }
+   .settings-text {
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+    display: flex;
+    align-items: center;    
+    color: #222222;    
+   }
    .track {
     font-family: Segoe UI;
     font-size: 18px; 
     line-height: 24px; 
     color: #2FA2BC;    
+   }
+   .change {
+    font-family: Segoe UI;
+    font-size: 18px;
+    line-height: 24px;
+    text-decoration-line: underline;    
+    color: #2FA2BC;
    }
 
    .all-tracks {
@@ -153,3 +198,31 @@ li {
     border-radius: 100px;
     color: #FFFFFF;
    }
+
+   .btn-primary {
+    background: linear-gradient(90deg, #2797B6 0%, #54C5CF 100%), #2FA2BC;
+    border-radius: 100px;
+    width: 154px;
+    height: 50px;    
+   }
+
+   .form-check-input:checked, .form-check-input:hover {
+    color: #802882;
+    text-decoration: none !important;
+   }
+
+   .form-check-input {
+    text-decoration: none !important;
+    }
+
+    .form-control {
+    border: 1px solid #D2D2D2;
+    box-sizing: border-box;
+    border-radius: 5px;
+    box-shadow: none;
+    
+    }
+    .form-control:hover {
+        border: 1px solid #2FA2BC;    
+        box-shadow: none;   
+        }
