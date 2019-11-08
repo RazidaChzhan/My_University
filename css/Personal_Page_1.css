@@ -54,7 +54,6 @@ a:hover, a:active, a:visited, a:link {
     color: #222222;  
     border-bottom: 5px solid #2FA2BC;
     text-decoration: none !important;
-
 }
 
 .main {
@@ -174,6 +173,7 @@ li {
     line-height: 24px;
     text-decoration-line: underline;    
     color: #2FA2BC;
+    margin-left: 15px;   
    }
 
    .all-tracks {
@@ -199,23 +199,7 @@ li {
     color: #FFFFFF;
    }
 
-   .btn-primary {
-    background: linear-gradient(90deg, #2797B6 0%, #54C5CF 100%), #2FA2BC;
-    border-radius: 100px;
-    width: 154px;
-    height: 50px;    
-   }
-
-   .form-check-input:checked, .form-check-input:hover {
-    color: #802882;
-    text-decoration: none !important;
-   }
-
-   .form-check-input {
-    text-decoration: none !important;
-    }
-
-    .form-control {
+       .form-control {
     border: 1px solid #D2D2D2;
     box-sizing: border-box;
     border-radius: 5px;
@@ -226,3 +210,19 @@ li {
         border: 1px solid #2FA2BC;    
         box-shadow: none;   
         }
+
+.btn-primary {
+    background: linear-gradient(90deg, #2797B6 0%, #54C5CF 100%), #2FA2BC;
+    border-radius: 100px;
+    width: 154px;
+    height: 50px;    
+    }
+
+.form-check-input:checked, .form-check-input:hover {
+color: #802882;
+text-decoration: none !important;
+}
+
+.form-check-input {
+text-decoration: none !important;
+}

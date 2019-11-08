@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/Personal_Page_2.css">
     <link rel="stylesheet" href="./css/Personal_Page_1.css">
+    <link rel="stylesheet" href="./css/Personal_Page_3.css">
     <link rel="stylesheet" href="./css/radio_button.css">
 
 
@@ -62,116 +63,40 @@
           <div class="col-3">
             <div class="container personal-data">
               <ul>
-                <li><a href="#" style="padding-left: 0px;">Основная информация</a></li>
-                <li><a href="#">Социальные сети</a></li>
-                <li style="border-bottom: none"><a href="#">Смена пароля</a></li>    
+                <li><a href="Personal_Page_1.html" style="padding-left: 0px;">Основная информация</a></li>
+                <li><a href="Personal_Page_4.html">Социальные сети</a></li>
+                <li style="border-bottom: none"><a href="Personal_Page_3.html">Смена пароля</a></li>    
                 </ul>
             </div>
           </div>  
           <div class="col-2"></div>
-          <div class="col-7">
-            <div class="container settings">
-              <div class="container">
-                <div class="row">
-                  <div class="col-5">
-                    <p class="settings-text">Основная информация</p>
-                      <div class="container">
-                        <div class="row">
-                          <div class="col-2"></div>
-                          <div class="col-4">
-                            <img src="images/avatar.png"  alt="avatar" class="avatar" 
-                              style="width: 120px; height: 120px; margin-bottom: 20px;">                                             
-                          </div>
-                        </div>
-                      </div>
-                      <div class="container">
-                        <div class="row">
-                          <div class="col-2"></div>
-                          <div class="col-6">
-                            <a href="#" class="change"><img src="./images/icon_upload-to-cloud.png" alt="cloud" 
-                              style="width: 21px; height: 14px;"> Заменить</a>      
-                          </div>
-                        </div>
-                      </div>                              
-                  </div>
-                  
-                  <div class="col-7" style="border-left: 2px solid #D2D2D2;">
-                    <form>
-                      <div class="form-group">
-                        <label for="name"></label>
-                        <input type="text" class="form-control" id="name" placeholder="Иван">
-                      </div>
-                      <div class="form-group">
-                        <label for="surname"></label>
-                        <input type="text" class="form-control" id="surname" placeholder="Михайлов">
-                      </div>
-                      <div class="form-group">
-                        <label for="date"></label>
-                        <input type="date" class="form-control" id="date" placeholder="31.01.1990">
-                      </div>
-                      <div class="form-group">
-                        <label for="city"></label>
-                        <select id="inputcity" class="form-control">
-                          <option selected>Тюмень</option>
-                          <option></option>
-                        </select>
-                      </div>
-                      <div class="form-group">
-                        <label for="status"></label>
-                        <select id="status" class="form-control">
-                          <option selected>Я студент</option>
-                          <option></option>
-                        </select>
-                      </div>
-                      <div class="form-row">
-                        <div class="form-col-6">
-                          <div class="form-group">
-                            <label for="email"></label>
-                            <input type="email" class="form-control" id="email" placeholder="web.d3v@yandex.ru">
-                          </div>                          
-                        </div>
-                        <div class="form-col-6">
-                          <div class="form-group">
-                            <label for="phone"></label>
-                            <input type="phone" class="form-control" id="phone" placeholder="+7 952 347-34-19">
-                          </div>
-                        </div>
-                      </div>
-                      <div class="form-row">
-                              <label for="opt1" class="radio">
-                                <input type="radio" name="rdo" id="opt1" class="hidden"/>
-                                <span class="label"></span>Обычный пользователь
-                              </label>
-                              
-                              <label for="opt2" class="radio">
-                                <input type="radio" name="rdo" id="opt2" class="hidden"/>
-                                <span class="label"></span> Лидер группы
-                                <sup><img src="./images/icon_info.png" alt="info" style="width: 13px; height: 13px;"></sup>
-                              </label>                              
-                      </div>
-                      <p>Лидер собирает команду и отправляет приглашения 
-                          участникам. После появляется динамика команды: общая 
-                          диаграмма о прохождении трека.
-
-                      </p>
-                      <button type="button" class="btn btn-info" data-toggle="modal" data-target="#windowmodal">Создать группу</button>
-                      <div class="container">
-                        <div class="row">
-                          <div class="col-8"></div>
-                          <div class="col-2">
-                            <button type="button" class="btn btn-primary">Сохранить</button>
-                          </div>
-                        </div>
-                      </div>
-                      
-                    </form>
-                  </div>
+          <div class="col-5 password-change">
+            <p style="font-family: Segoe UI; font-size: 24px; line-height: 32px; color: #222222;"><b>Смена пароля</b></p>
+            <form>
+                <div class="form-group row">
+                    <label for="inputPassword"></label>
+                    <div class="col-7">
+                      <input type="password" class="form-control" id="inputPassword" placeholder="************">
+                    </div>
                 </div>
-                
-              </div>
-              
-              </div>
-            </div>
+                <div class="form-group row">
+                    <label for="inputPassword"></label>
+                    <div class="col-7">
+                      <input type="password" class="form-control" id="inputPassword" placeholder="Новый пароль">
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label for="inputPassword"></label>
+                    <div class="col-7">
+                      <input type="password" class="form-control" id="inputPassword" placeholder="Новый пароль повторно">
+                    </div>
+                    <div class="col-2"></div>
+                    <div class="col-1">
+                        <button type="button" class="btn btn-primary">Изменить</button> 
+                    </div>
+                </div>
+            </form>
+          </div>
           </div>       
       </div>       
     </div> 
