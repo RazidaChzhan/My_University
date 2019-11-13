@@ -3,6 +3,7 @@ body {
     max-width: 100%;
     margin: 0px;
     position: relative;
+    font-family: Segoe UI;
    }
 
 a:hover, a:active, a:visited, a:link {
@@ -12,14 +13,15 @@ a:hover, a:active, a:visited, a:link {
 }
 
 .logo-text {
-    font-family: Segoe UI;
     font-size: 15px;
     line-height: 20px;            
     color: #222222; 
     border-width: 0 0 0 3px; 
     border-style: solid; 
     padding-left: 10px; 
-    border-color: #2FA2BC
+    border-color: #2FA2BC;
+    display: flex;
+    align-items: center;
     }
 
 .dropdown-menu {
@@ -30,11 +32,8 @@ a:hover, a:active, a:visited, a:link {
 .navbar {
     background-color: #FFFFFF !important;
 }
-.personal-menu {
-    background-color: #F0F3F4;
-}
+
 .personal-text {
-    font-family: Segoe UI;
     font-size: 44px;
     line-height: 59px;
     color: #222222;
@@ -44,7 +43,6 @@ a:hover, a:active, a:visited, a:link {
     font-weight: bold;
 }
 .personal {
-    font-family: Segoe UI;
     font-size: 24px;
     line-height: 32px;
     color: #222222;  
@@ -53,8 +51,7 @@ a:hover, a:active, a:visited, a:link {
 .personal:hover {
     font-weight: bold;
     color: #222222;  
-    border: 5px solid #2FA2BC;
-    text-decoration: underline !important;
+    border-bottom: 5px solid #2FA2BC;
     text-decoration-color:  #2FA2BC;
 
 }
@@ -64,13 +61,13 @@ a:hover, a:active, a:visited, a:link {
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    height: 100%;    
+    height: 150%;    
    }
 
 .personal-data {
     background-color: #FFFFFF;
     width: 100%;
-    height: 85%;
+    height: 90%;
     /* margin-left: 260px; */
     box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
     border-radius: 5px;
@@ -84,7 +81,6 @@ li {
    }
 
    .nav-link {
-    font-family: Segoe UI;
     font-size: 24px;
     line-height: 32px;
     display: flex;
@@ -96,7 +92,6 @@ li {
     color: #222222;
    }
    .text {
-    font-family: Segoe UI;
     font-style: normal;
     font-weight: bold;
     font-size: 24px;
@@ -104,31 +99,31 @@ li {
     display: flex;
     align-items: center;    
     color: #222222;
-    margin-top: 40px;
+   
    }
    .track {
-    font-family: Segoe UI;
     font-size: 18px; 
     line-height: 24px; 
     color: #2FA2BC;   
-    margin-top: 43px;
-   }
+    margin-top: 10px;
+    }
 
    .all-tracks {
-    width: 100%; 
+    width: 110%; 
+    height: 20%;
     background-color: #FFFFFF; 
     box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1); 
     border-radius: 5px; 
     margin-bottom: 20px;
    }
 
-   .policy:hover {
-    font-family: Segoe UI; 
+   .policy {
     font-size: 18px;
     line-height: 24px;
     text-decoration-line: underline !important;                  
     color: #2FA2BC !important;
    }
+
    .personal-link:hover {
     background-color: #2FA2BC;
     border-radius: 100px;
@@ -138,6 +133,19 @@ li {
    .avatar {
     margin-top: 10px;
    }
+
+   .logo-text-footer {
+    font-size: 15px;
+    line-height: 20px;            
+    color: #222222; 
+    border-width: 0 0 0 3px; 
+    border-style: solid; 
+    padding-left: 10px; 
+    border-color: #2FA2BC;
+    display: flex;
+    align-items: center;
+    }
+
 
 
    @media only screen and (max-width : 576px) {
