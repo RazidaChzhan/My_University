@@ -4,6 +4,7 @@ body {
     margin: 0px;
     position: relative;
     font-family: Segoe UI;
+    font-style: normal;
    }
 
 a:hover, a:active, a:visited, a:link {
