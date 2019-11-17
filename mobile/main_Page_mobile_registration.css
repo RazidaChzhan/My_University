@@ -1,0 +1,33 @@
+.text-or {
+    font-family: Roboto;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 25px;
+    text-align: center;
+    color: #7A7A7A;
+}
+
+.sign-in-main {
+    width: 198px;
+    height: 50px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 25px;
+    text-align: center;
+    color: #FFFFFF;
+    background: linear-gradient(90deg, #2797B6 0%, #54C5CF 100%), #2FA2BC;
+    border-radius: 100px;
+}
+
+.form-check-input:checked,
+.form-check-input:hover {
+    color: #802882;
+    text-decoration: none !important;
+}
+
+.form-check-input {
+    text-decoration: none !important;
+}
