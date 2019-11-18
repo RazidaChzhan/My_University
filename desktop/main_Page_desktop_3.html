@@ -5,12 +5,14 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/fontawesome-free-5.11.2-web/css/all.css">
+    <link href="/fontawesome-free-5.11.2-web/css/all.css" rel="stylesheet">
     <link rel="stylesheet" href="./css/demo.css">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="../css/radio_button.css">
     <link rel="stylesheet" href="../desktop/main_Page_desktop.css">
 
     <title>Образовательная онлайн-платформа</title>
@@ -35,15 +37,14 @@
                         </div>
                     </div>
                     <div class="container" style="margin-top: 240px;width: 498px; height: 302px;">
-
+                        <!-- <div class="container"> -->
                         <div class="col-10 left-block-logo">
                             <img src="../images/main_Page/logo-2.svg" alt="logo-2">
                         </div>
-
+                        <!-- </div> -->
                     </div>
                 </div>
             </div>
-
             <div class="col-8 right-block">
                 <div class="container">
                     <div class="row form-row">
@@ -90,58 +91,81 @@
                                                 <hr>
                                             </div>
                                         </div>
-
-                                        <div class="form-group row">
-                                            <label for="inputName" class="col-2 col-form-label"></label>
-                                            <div class="col-12">
-                                                <input type="text" class="form-control" id="inputName"
-                                                    placeholder="Введите имя">
-                                            </div>
-                                            <label for="inputSurname" class="col-2 col-form-label"></label>
-                                            <div class="col-12">
-                                                <input type="text" class="form-control" id="inputSurname"
-                                                    placeholder="Введите фамилию">
-                                            </div>
-                                            <label for="date" class="col-2 col-form-label"></label>
-                                            <div class="col-12">
-                                                <input type="date" class="form-control" id="date"
-                                                    placeholder="Дата рождения">
-                                            </div>
-                                        </div>
-
-
                                         <div class="container">
-                                            <div class="row" style="padding-bottom: 49px;">
-                                                <div class="col-7"></div>
-                                                <div class="col-5">
-                                                        <a href="../desktop/main_Page_desktop_2.html" type="submit" class="btn sign-in-main"
-                                                        style="margin-left: 30px;">
-                                                        <span style="padding-left: 20px;">Далее</span>
-                                                        <i class="fas fa-arrow-right" style="padding-left: 25px;"></i>                                                        
-                                                        </a>
-                                                    <!-- <a href="../desktop/main_Page_desktop_2.html">
-                                                        <button type="submit" class="btn btn-primary sign-in-main"
-                                                            style="margin-left: 30px;">
-                                                            <span style="padding-left: 20px;">Далее</span>
-                                                            <i class="fas fa-arrow-right"
-                                                                style="padding-left: 25px;"></i>
-                                                        </button>
-                                                    </a> -->
+                                            <div class="form-group row">
+                                                <div class="container">
+                                                    <div class="row">
+                                                        <label for="inputEmail3" class="col-form-label"></label>
+                                                        <div class="col-6">
+                                                            <input type="email" class="form-control" id="inputEmail3"
+                                                                placeholder="Введите E-mail">
+                                                        </div>
+                                                        <label for="inputPhone" class="col-form-label"></label>
+                                                        <div class="col-6">
+                                                            <input type="phone" class="form-control" id="inputPhone"
+                                                                placeholder="Введите телефон">
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <label for="inputPassword3" class="col-sm-2 col-form-label"></label>
+                                                <div class="col-12">
+                                                    <input type="password" class="form-control" id="inputPassword3"
+                                                        placeholder="Введите пароль">
+                                                </div>
+
+                                                <label for="inputPassword3" class="col-sm-2 col-form-label"></label>
+                                                <div class="col-12">
+                                                    <input type="password" class="form-control" id="inputPassword3"
+                                                        placeholder="Подтвердите пароль">
                                                 </div>
                                             </div>
                                         </div>
-                                        
-                                    </div>
+
+                                        <div class="container">
+                                            <div class="row">
+                                                <div class="col-2">
+                                                    <div class="form-check">
+                                                        <input class="form-check-input" type="checkbox" value=""
+                                                            id="invalidCheck2" required style="width: 28.41px;
+                                                                height: 30px;">
+                                                        <label class="form-check-label" for="invalidCheck2"></label>
+                                                    </div>
+                                                </div>
+                                                <div class="col-10" style="font-size: 12px;
+                                                    line-height: 15px; color: #7A7A7A;">
+                                                    <a style="text-decoration: underline;">Согласен</a> на обработку
+                                                    персональных данных в
+                                                    соответствии
+                                                    с <a style="text-decoration: underline;">политикой
+                                                        конфиденциальности </a>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="container">
+                                            <div class="row" style="padding-bottom: 49px; padding-top: 27px;">
+                                                <div class="col-5"></div>
+                                                <div class="col-7">
+                                                    <a href="../desktop/main_Page_desktop_2.html"><img
+                                                            src="../images/main_Page/back-button-left.png"
+                                                            style="width: 50px; height: 50px;"></a>
+
+                                                    <a href="../desktop/main_Page_desktop_4.html" type="submit" class="btn sign-in-main"
+                                                    style="margin-left: 30px;">
+                                                    <span style="padding-left: 10px;">Регистрация</span>                                                                                                            
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
                             </form>
                         </div>
                     </div>
-                    </form>
                 </div>
             </div>
         </div>
     </div>
     </div>
-
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
@@ -154,6 +178,7 @@
     </script>
     <script src="./js/Personal_Page.js"></script>
     <script src="./js/demo.js"></script>
+
 </body>
 
 </html>

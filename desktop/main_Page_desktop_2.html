@@ -5,6 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
@@ -36,11 +37,9 @@
                         </div>
                     </div>
                     <div class="container" style="margin-top: 240px;width: 498px; height: 302px;">
-                        <!-- <div class="container"> -->
                         <div class="col-10 left-block-logo">
                             <img src="../images/main_Page/logo-2.svg" alt="logo-2">
                         </div>
-                        <!-- </div> -->
                     </div>
                 </div>
             </div>
@@ -90,64 +89,62 @@
                                                 <hr>
                                             </div>
                                         </div>
-                                        <form>
-                                        <div class="form-group row">
-                                                    <label for="inputcity" class="col-2 col-form-label"></label>
-                                                    <div class="col-12">
-                                                        <input type="text" class="form-control" id="inputcity"
-                                                            placeholder="Населенный пункт">
-                                                    </div>
-                                                    <label for="inputcity" class="col-2 col-form-label"></label>
-                                                    <div class="col-12">
-                                                        <select id="inputstatus" class="form-control"
-                                                            aria-placeholder="Я студент">
-                                                            <option selected>Я студент</option>
-                                                            <option></option>
-                                                        </select>
-                                                    </div>
+                                        <div class="container">
+                                            <div class="form-group row">
+                                                <label for="inputcity" class="col-2 col-form-label"></label>
+                                                <div class="col-12">
+                                                    <input type="text" class="form-control" id="inputcity"
+                                                        placeholder="Населенный пункт">
                                                 </div>
-                                            
-                                                <div class="form-row">
-                                                    <label for="opt1" class="radio">
-                                                        <input type="radio" name="rdo" id="opt1" class="hidden" />
-                                                        <span class="label"></span>Обычный пользователь
-                                                    </label>
-
-                                                    <label for="opt2" class="radio">
-                                                        <input type="radio" name="rdo" id="opt2" class="hidden" />
-                                                        <span class="label"></span> Лидер группы
-                                                        <sup><img src="../images/icon_info.png" alt="info"
-                                                                style="width: 13px; height: 13px;"></sup>
-                                                    </label>
+                                                <label for="inputcity" class="col-2 col-form-label"></label>
+                                                <div class="col-12">
+                                                    <select id="inputstatus" class="form-control"
+                                                        aria-placeholder="Я студент">
+                                                        <option selected>Я студент</option>
+                                                        <option></option>
+                                                    </select>
                                                 </div>
-                                            
-                                                <div class="container">
-                                                        <div class="row" style="padding-bottom: 49px;">
-                                                            <div class="col-5"></div>
-                                                            <div class="col-7">                                                            
-                                                            <a href="../desktop/main_Page_desktop_1.html"><img
-                                                                    src="../images/main_Page/back-button-left.png" style="width: 50px; height: 50px;"></a>
-                                        
-                                                            <a href="../desktop/main_Page_desktop_3.html">
-                                                                <button type="submit" class="btn btn-primary sign-in-main" style="margin-left: 30px;">
-                                                                    <span style="padding-left: 20px;">Далее</span>
-                                                                    <i class="fas fa-arrow-right" style="padding-left: 25px;"></i>
-                                        
-                                                                </button>
-                                                            </a>
-                                                        </div>
-                                                    </div>
+                                                <label for="opt1" class="radio">
+                                                    <input type="radio" name="rdo" id="opt1" class="hidden" />
+                                                    <span class="label"></span>Обычный пользователь
+                                                </label>
+                                                <label for="opt2" class="radio">
+                                                    <input type="radio" name="rdo" id="opt2" class="hidden" />
+                                                    <span class="label"></span> Лидер группы
+                                                    <a tabindex="0" data-toggle="popover" data-trigger="focus"
+                                                        data-content="Лидер регистрируется на сайте, отмечает в личном кабинете, что он собирает команду и отправляет приглашения участникам на почту. 
+                                                                У лидера появляется динамика команды: общая диаграмма о прохождении трека.">
+                                                        <sup>
+                                                            <img src="../images/icon_info.png" alt="info"
+                                                                style="width: 13px; height: 13px;" title=""></sup>
+                                                    </a>
+                                                </label>
+                                            </div>
+                                        </div>
 
-                                    </div>
+                                        <div class="container">
+                                            <div class="row" style="padding-bottom: 49px;">
+                                                <div class="col-5"></div>
+                                                <div class="col-7">
+                                                    <a href="../desktop/main_Page_desktop_1.html">
+                                                        <img src="../images/main_Page/back-button-left.png"
+                                                            style="width: 50px; height: 50px;">
+                                                    </a>
+
+                                                    <a href="../desktop/main_Page_desktop_3.html" type="submit" class="btn sign-in-main"
+                                                    style="margin-left: 30px;">
+                                                    <span style="padding-left: 20px;">Далее</span>
+                                                    <i class="fas fa-arrow-right" style="padding-left: 25px;"></i>                                                        
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
                             </form>
-
                         </div>
                     </div>
-                    </form>
                 </div>
             </div>
         </div>
-
     </div>
     </div>
 
@@ -163,6 +160,21 @@
     </script>
     <script src="./js/Personal_Page.js"></script>
     <script src="./js/demo.js"></script>
+
+    <script>
+        $(function () {
+            $('[data-toggle="popover"]').popover({
+                placement: 'right',
+                html: true,
+
+            })
+        });
+
+        $(document).on("click", ".popover .close", function () {
+            $(this).parents(".popover").popover('hide');
+        });
+    </script>
+
 </body>
 
 </html>
