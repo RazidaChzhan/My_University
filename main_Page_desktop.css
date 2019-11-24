@@ -41,7 +41,6 @@ a:link {
     max-width: 100%;
     max-height: 100%;
     text-align: center;
-    /* padding-top: 30px;       */
 }
 
 .blocks-btn {
@@ -97,8 +96,8 @@ a:link {
     line-height: 25px;
     align-items: center;
     text-align: center;
-    color: #FFFFFF!important;
-    text-decoration: none!important;
+    color: #FFFFFF !important;
+    text-decoration: none !important;
     padding-top: 10px;
 
 }
@@ -130,19 +129,13 @@ a:link {
     max-width: 100%;
     max-height: 100%;
 }
+
 .left-block-text {
     font-family: HelveticaNeueCyr;
     font-size: 15px;
     line-height: 25px;
     color: #FFFFFF;
     border-top: 1px solid #FFFFFF;
-}
-
-.left-block-logo {
-    background-color: #D1D2D4;
-    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.15);
-    border-radius: 15px;
-
 }
 
 .right-block {
@@ -158,13 +151,6 @@ a:link {
     padding-bottom: 72px;
 }
 
-.form-text {
-    font-family: Helvetica CE;
-    font-size: 16px;
-    line-height: 25px;
-    color: #7A7A7A;
-    margin-top: 30px;
-}
 
 .google {
     background: #FFFFFF;
@@ -175,14 +161,20 @@ a:link {
     font-size: 16px;
     line-height: 25px;
     color: #222222;
+    width: 154px;
+    height: 41px;
 }
 
 .facebook {
     background: #3B5998;
+    width: 154px;
+    height: 41px;
 }
 
 .vkontakte {
     background: #4680C2;
+    width: 154px;
+    height: 41px;
 }
 
 .text-or {
@@ -239,7 +231,9 @@ a:link {
     background: linear-gradient(90deg, #2797B6 0%, #54C5CF 100%), #2FA2BC;
     border-radius: 100px;
 }
-.sign-in-main:hover, .sign-in-main:active {
+
+.sign-in-main:hover,
+.sign-in-main:active {
     color: #FFFFFF;
 }
 
@@ -261,34 +255,37 @@ a:link {
     border: 1px solid #2FA2BC;
     box-shadow: none !important;
 }
+
 h1 {
-    font-weight: bold; 
-    font-size: 38px; 
-    line-height: 53px; 
-    color: #000000;        
+    font-weight: bold;
+    font-size: 38px;
+    line-height: 53px;
+    color: #000000;
 }
+
 .expert-text {
     font-family: Segoe UI;
-font-style: normal;
-font-weight: bold;
-font-size: 22px;
-line-height:36px;
-display: flex;
-align-items: center;
-color: #000000;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    color: #000000;
 }
 
 .expert-text-1 {
     font-family: HelveticaNeueCyr;
-font-style: normal;
-font-weight: normal;
-font-size: 16px;
-line-height: 26px;
-color: #333333;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #333333;
 
 }
+
 .contact-us-back {
-    background-image: url('./images/background-img-main.svg');  
+    background-image: url('./images/background-img-main.svg');
     background-repeat: no-repeat;
     background-size: cover;
     max-width: 100%;
@@ -296,11 +293,11 @@ color: #333333;
 }
 
 .contact-Us-text {
-font-weight: bold;
-font-size: 24px;
-line-height: 32px;
-color: #FFFFFF;
-padding-top: 40px;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+    color: #FFFFFF;
+    padding-top: 40px;
 
 }
 
@@ -318,21 +315,58 @@ padding-top: 40px;
     margin-left: 2px;
 }
 
-/* .more-hide{
-    width: 685px;
-    height: 720px;
-    margin-top: 50px;
-} */
 .track-begin {
     background: linear-gradient(90deg, #2899B7 0%, #52C3CE 100%), #FFFFFF;
     font-family: Roboto;
-font-style: normal;
-font-weight: bold;
-font-size: 16px;
-line-height: 25px;
-text-align: center;
-color: #FFFFFF;
-height: 82px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 25px;
+    text-align: center;
+    color: #FFFFFF;
+    height: 82px;
+}
+
+.text-logo {
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 51px;
+    color: #FFFFFF;
+}
+
+.autorization {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    color: #7A7A7A;
 
 }
-     
+
+.autorization:hover {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    color: #222222;
+    border-bottom: 5px solid #2FA2BC;
+
+}
+
+.send-btn {
+    background: linear-gradient(90deg, #2797B6 0%, #54C5CF 100%), #2FA2BC;
+    border-radius: 100px;
+    width: 257px;
+    height: 50px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 25px;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+}
