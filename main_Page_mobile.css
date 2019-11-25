@@ -112,4 +112,19 @@ max-width: 100%;
     .mobile-link:hover {
         border-bottom:  5px solid #2FA2BC !;
     }
+
+    .policy {
+       font-family: Segoe UI;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 12px;
+                line-height: 16px;
+                text-decoration: underline !important;                
+                color: #7A7A7A;
+    }
+    .hr {
+       border: 3px solid #D2D2D2;
+    }
+
+    
 }
