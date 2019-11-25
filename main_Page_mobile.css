@@ -94,4 +94,22 @@ max-width: 100%;
         height: 82px;
         width: 320px;
     }
+
+    .google, .facebook, .vkontakte {
+        width: 268px;
+        height: 41px;
+        margin-bottom: 16px;
+    }
+    .google:hover, .facebook:hover, .vkontakte:hover {
+        box-shadow: none;
+        ;
+    }
+    .sign-in {
+        width: 267px;
+        height: 50px;
+    }   
+    
+    .mobile-link:hover {
+        border-bottom:  5px solid #2FA2BC !;
+    }
 }
